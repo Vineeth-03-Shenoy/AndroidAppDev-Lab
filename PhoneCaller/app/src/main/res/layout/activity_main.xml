@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8D4D4"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/phone_number_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="88dp"
+        android:autofillHints="false"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_number_edit_text"
+        app:layout_constraintVertical_bias="0.89">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/ClearBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#FF0000"
+                android:onClick="ClearBtn"
+                android:text="@string/clear"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+            <Button
+                android:id="@+id/starBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="starBtn"
+                android:text="@string/star"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+            <Button
+                android:id="@+id/hashBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="hashBtn"
+                android:text="@string/hash"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/SevenBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="SevenBtn"
+                android:text="@string/seven"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+            <Button
+                android:id="@+id/EightBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="EightBtn"
+                android:text="@string/eight"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+            <Button
+                android:id="@+id/NineBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="NineBtn"
+                android:text="@string/nine"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/FourBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="FourBtn"
+                android:text="@string/four"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+            <Button
+                android:id="@+id/FiveBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="FiveBtn"
+                android:text="@string/five"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+            <Button
+                android:id="@+id/SixBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="SixBtn"
+                android:text="@string/six"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/OneBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="OneBtn"
+                android:text="@string/one"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+            <Button
+                android:id="@+id/TwoBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="TwoBtn"
+                android:text="@string/two"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+            <Button
+                android:id="@+id/ThreeBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="ThreeBtn"
+                android:text="@string/three"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/call_button"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#00C853"
+                android:drawableLeft="@drawable/baseline_call_24"
+                android:onClick="makePhoneCall"
+                android:text="@string/call"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+            <Button
+                android:id="@+id/SqrtBtn"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#A17B7B"
+                android:onClick="ZeroBtn"
+                android:text="@string/zero"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="0dp"
+                android:layout_height="85sp"
+                android:layout_weight="1"
+                android:backgroundTint="#64DD17"
+                android:onClick="savePhoneNumber"
+                android:text="@string/save"
+                android:textSize="24sp"
+                app:cornerRadius="50sp" />
+        </TableRow>
+    </TableLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Counter</string>
+    <string name="start">START</string>
+    <string name="count">COUNT</string>
+    <string name="stop">STOP</string>
+    <string name="restart">RESTART</string>
+</resources>

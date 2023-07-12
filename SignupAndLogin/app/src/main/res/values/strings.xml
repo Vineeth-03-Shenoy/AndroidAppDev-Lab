@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SignupAndLogin</string>
+    <string name="password">PASSWORD</string>
+    <string name="username">USERNAME</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="log_in">LOG IN</string>
+    <string name="cancel">CANCEL</string>
+
+    <string name="collegeName">St JOSEPH \n ENGINEERING COLLEGE</string>
+    <string name="name">VINEETH SHENOY P</string>
+    <string name="jobDesc">Student of AIML</string>
+    <string name="phNo">+91 9449559975</string>
+    <string name="emailId">20ai059.vineeth@sjec.ac.in</string>
+    <string name="github">https://github.com/Vineeth-03-Shenoy</string>
+    <string name="address">St Joseph Engineering College,\n Vamanjoor, Mangaluru\n Karnataka - 575028 </string>
+    <string name="already_have_an_account">Already have an Account?</string>
+
+</resources>

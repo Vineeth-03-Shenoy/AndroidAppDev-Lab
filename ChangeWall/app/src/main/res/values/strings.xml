@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChangeWall</string>
+    <string name="changing_wallpaper_application">CHANGING WALLPAPER \nAPPLICATION</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="enter_seconds">Enter seconds</string>
+</resources>

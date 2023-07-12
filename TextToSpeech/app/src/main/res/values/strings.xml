@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Text To Speech</string>
+    <string name="enter_some_text">Enter Some Text</string>
+    <string name="convert_text_to_speech">Convert \nText to Speech</string>
+    <string name="text_to_speech_application">TEXT TO SPEECH APPLICATION</string>
+</resources>
